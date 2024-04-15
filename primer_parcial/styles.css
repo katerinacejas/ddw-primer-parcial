@@ -8,12 +8,11 @@ colores a usar
     advertencia: '#FF4545',
 
 */
-
 .encabezado {
     position:fixed;
     top:0;
     width:100%;
 }
 #logo_principal {
-    height: 80px;
+    height: 90px;
 }
