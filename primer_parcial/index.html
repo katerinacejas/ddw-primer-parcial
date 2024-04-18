@@ -5,32 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primer Parcial</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="shortcut icon" href="images/logo.png">
 </head>
 <body>
     <!-- encabezado fijo con la navegación -->
-    <header class="encabezado">
-        <a href="#">
-            <img src="images/logo.png" id="logo_principal" alt="logo">
-        </a>
-        <h1>Kastrospedia</h1>
+    <header class="encabezado display_flex items_centro">
+        <div class="flex_horizontal items_centro">
+            <a href="#">
+                <img src="images/logo.png" class="imagen_noventa imagen_espacios" alt="logo">
+            </a>
+            <h1>Kastrospedia</h1>
+        </div>
 
         <!-- navegacion -->
         <nav>
-            <ul>
+            <ul class="flex_horizontal margen_lista_horizontal items_centro">
                 <li>Signos</li>
                 <li>Planetas</li>
                 <li>Casas</li>
                 <li>Elementos</li>
                 <li>Carta Astral</li>
-                <li>Dudas</li>
                 <li>¡Ustedes!</li>
                 <li>Nosotros</li>
             </ul>
         </nav>
     </header>
     <!-- cuerpo principal de la pagina -->
-    <main>
 
+    <main>
 
 
         <!-- contenedor extra para realizar consultas -->
