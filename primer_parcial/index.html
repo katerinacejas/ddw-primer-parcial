@@ -25,24 +25,85 @@
                 <li>Planetas</li>
                 <li>Casas</li>
                 <li>Elementos</li>
-                <li>Carta Astral</li>
                 <li>¡Ustedes!</li>
-                <li>Nosotros</li>
+               <li>Nosotros</li>
             </ul>
         </nav>
     </header>
     <!-- cuerpo principal de la pagina -->
 
     <main>
+        <!-- bloque de proximos eventos/funcionalidades (no pertenece al menu, es para que el ancla del bloque signos desplace un poco la pagina)
+            * lectura de carta astral
+            * horoscopo semanal
+            * colores y numeros semanales
+        -->
+        <section class="carousel">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <div class="carousel-item">
+                <h2>Lectura personalizada de carta astral</h2>
+                <img src="images/carrusel_novedades/carta_astral.jpg">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="images/carrusel_novedades/horoscopo_semanal.jpg">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+                <img src="images/carrusel_novedades/numerologia.jpg">
+            </div>
+            
+            <label for="carousel-3" class="carousel-control prev control-1">‹</label>
+            <label for="carousel-2" class="carousel-control next control-1">›</label>
+            <label for="carousel-1" class="carousel-control prev control-2">‹</label>
+            <label for="carousel-3" class="carousel-control next control-2">›</label>
+            <label for="carousel-2" class="carousel-control prev control-3">‹</label>
+            <label for="carousel-1" class="carousel-control next control-3">›</label>
+            <ol class="carousel-indicators">
+                <li>
+                    <label for="carousel-1" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-2" class="carousel-bullet">•</label>
+                </li>
+                <li>
+                    <label for="carousel-3" class="carousel-bullet">•</label>
+                </li>
+            </ol>
+        </section>
 
+        <!-- bloque signos-->
+        <section>
+            <h1></h1>
+        </section>
 
-        <!-- contenedor extra para realizar consultas -->
+        <!-- bloque planetas-->
+        <section>
+            <h1></h1>
+        </section>
+
+        <!-- bloque casas-->
+        <section>
+            <h1></h1>
+        </section>
+
+        <!-- bloque elementos-->
+        <section>
+            <h1></h1>
+        </section>
+
+        <!-- bloque ustedes-->
+        <section>
+            <h1></h1>
+        </section>
+
+        <!-- contenedor extra para calcular la carta astral -->
         <aside>
 
         </aside>
     </main>
 
-    <!-- pie de pagina para contacto -->
+    <!-- pie de pagina para contacto, bloque "nosotros" -->
     <footer>
 
     </footer>
