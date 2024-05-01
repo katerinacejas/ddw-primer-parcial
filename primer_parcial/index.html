@@ -20,13 +20,13 @@
 
         <!-- navegacion -->
         <nav class="width_completo">
-            <ul class="flex_horizontal margen_horizontal items_centro">
-                <li>Signos</li>
-                <li>Planetas</li>
-                <li>Casas</li>
-                <li>Elementos</li>
-                <li>¡Ustedes!</li>
-               <li>Nosotros</li>
+            <ul class="flex_horizontal margen_horizontal items_centro barrita_navegacion fondo_circular">
+                <li><a href="#signos">Signos</a></li>
+                <li><a href="#planetas">Planetas</a></li>
+                <li><a href="#casas">Casas</a></li>
+                <li><a href="#elementos">Elementos</a></li>
+                <li><a href="#ustedes">¡Ustedes!</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
             </ul>
         </nav>
     </header>
@@ -38,15 +38,24 @@
             <h2 class="texto_center">¡Próximamente!</h2>
             <section class="flex_horizontal display_flex width_completo margen_horizontal_proximamente items_centro">
                 <div>
-                    <img src="images/carrusel_novedades/carta_astral.jpg" class="imagen_grilla contenedor_bordes_circulares" alt="carta astral">
+                    <div class="card_cambia_visibilidad">
+                        <p class="texto_card_visibilidad">La carta astral es un mapa que explica la personalidad de una persona, teniendo en cuenta la posición de los planetas, el sol y la luna en relación con la Tierra. Ofreceremos una lectura personalizada de la carta astral, junto con respuestas a todas las dudas que surjan.</p>
+                        <img src="images/carrusel_novedades/carta_astral.jpg" class="imagen_grilla contenedor_bordes_circulares" alt="carta astral">
+                    </div>
                     <h3 class="texto_center">Lectura de Cartas Astrales</h3>
                 </div>
                 <div>
-                    <img src="images/carrusel_novedades/horoscopo_semanal.jpg" class="imagen_grilla contenedor_bordes_circulares" alt="horoscopo semanal">
+                    <div class="card_cambia_visibilidad">
+                        <p class="texto_card_visibilidad">Brindaremos todos los domingos por la noche el horóscopo de todos los signos. Tener en cuenta que el horóscopo no es algo fijo, se debe dar atención a aquello que le resuene.</p>
+                        <img src="images/carrusel_novedades/horoscopo_semanal.jpg" class="imagen_grilla contenedor_bordes_circulares" alt="horoscopo semanal">
+                    </div>
                     <h3 class="texto_center">Horóscopo Semanal</h3>
                 </div>
                 <div>
-                    <img src="images/carrusel_novedades/numerologia.jpg" class="imagen_grilla contenedor_bordes_circulares" alt="numerologia">
+                    <div class="card_cambia_visibilidad">
+                        <p class="texto_card_visibilidad">La numerología es tu llave para desbloquear el misterio de tu vida. Con solo tus números de nacimiento y nombre, descubre tus fortalezas, desafíos y oportunidades futuras. ¡Descubre tu verdadero potencial!</p>
+                        <img src="images/carrusel_novedades/numerologia.jpg" class="imagen_grilla contenedor_bordes_circulares" alt="numerologia">
+                    </div>
                     <h3 class="texto_center">Numerología</h3>
                 </div>
             </section>
@@ -55,56 +64,152 @@
         <hr>
 
         <!-- bloque signos-->
-        <section class="margen_entre_bloques">
+        <section id="signos" class="margen_entre_bloques">
             <h2 class="texto_center">Signos</h2>
-            <section class="flex_horizontal display_flex width_completo items_centro">
-                <article class="width_completo items_centro">
-                    <div class="contenedor_titulos texto_center">
-                        <h3>Aries</h3>
-                        <p class="cursiva_center">21 de marzo — 20 de abril</p>
-                    </div>
-                    <p>
+            <p class="margen_entre_parrafos">La <strong>astrología y signos zodiacales</strong> siempre han suscitado interés en el ser humano desde la antigüedad. La influencia que los cuerpos celestes ejercen sobre la personalidad y el destino tiene especial importancia en la vida de las personas. Todo esto está marcado por el día en el que se nace, de forma que se asignará un signo u otro.</p>
+            <p class="margen_entre_parrafos">Cada uno tiene unas fortalezas y elementos que pueden influir en la personalidad y en cómo se interactúa con el resto de las personas</p>
+            <p class="margen_entre_parrafos">Existen un total de doce signos del Zodiaco en el mundo occidental: Aries, Tauro, Géminis, Cáncer, Leo, Virgo, Libra, Escorpio, Sagitario, Capricornio, Acuario y Piscis . Todos ellos guardan unas características propias, que marcan la personalidad de cada uno.</p>
+            <section class="flex_horizontal width_completo items_centro margen_secciones_intros margen_horizontal_signos">
+                <article>
+                    <div class="flex_horizontal width_completo items_centro">
                         <img src="images/signos/aries.jpg" class="imagen_signos" alt="Aries">
-                        Llenos de energía y entusiasmo por la vida. Aventureros por naturaleza, les encantan los retos, la libertad y las nuevas ideas, por lo que nunca tienen miedo a los comienzos o nuevas etapas. Son líderes y prefieren dar órdenes en vez de recibirlas. Suelen ser tercos e inquietos. Es muy fácil que malinterpreten algo y se ofendan rápido. Es complicado hacer las paces con ellos. Siempre lucharán si creen que la causa merece la pena.
-                    </p>
-                 
+                        <div class="width_completo">
+                            <h3 class="texto_center">Aries</h3>
+                            <p class="cursiva texto_center">21 de marzo — 20 de abril</p>
+                       </div>
+                    </div>
+                    <p class="margen_entre_parrafos">Llenos de energía y entusiasmo por la vida. Aventureros por naturaleza, les encantan los retos, la libertad y las nuevas ideas, por lo que nunca tienen miedo a los comienzos o nuevas etapas. Son líderes y prefieren dar órdenes en vez de recibirlas. Suelen ser tercos e inquietos. Es muy fácil que malinterpreten algo y se ofendan rápido. Es complicado hacer las paces con ellos. Siempre lucharán si creen que la causa merece la pena.</p>
                 </article>
-                <article class="flex_horizontal display_flex width_completo items_centro">
-                    <img src="images/signos/tauro.jpg" class="imagen_signos" alt="Tauro">
-                    <div>
-                        <h3>Tauro</h3>
-                        <p>21 de abril — 21 de mayo</p>
-                        <p>Tienen una gran fuerza de voluntad, son prácticos y decididos en la toma de decisiones. Suelen ser personas estables y conservadoras y no dudan en seguir a un líder si les despierta confianza. Suelen respetar las leyes y normas. El hecho de que tengan entusiasmo por la rutina y la continuidad hace que sean algo tozudos y de ideas fijas. No suelen hundirse en las dificultades y siempre salen adelante. Amantes de la buena comida, bebida y distintos placeres de la vida.</p>
-                    </div>                    
+                <article>
+                    <div class="flex_horizontal width_completo items_centro">
+                        <img src="images/signos/tauro.jpg" class="imagen_signos" alt="Tauro">
+                        <div class="width_completo">
+                            <h3 class="texto_center">Tauro</h3>
+                            <p class="cursiva texto_center">21 de abril — 21 de mayo</p>
+                       </div>
+                    </div>
+                    <p class="margen_entre_parrafos">Tienen una gran fuerza de voluntad, son prácticos y decididos en la toma de decisiones. Suelen ser personas estables y conservadoras y no dudan en seguir a un líder si les despierta confianza. Suelen respetar las leyes y normas. El hecho de que tengan entusiasmo por la rutina y la continuidad hace que sean algo tozudos y de ideas fijas. No suelen hundirse en las dificultades y siempre salen adelante. Amantes de la buena comida, bebida y distintos placeres de la vida.</p>
                 </article>
-                <article class="flex_horizontal display_flex width_completo items_centro">
-                    <img src="images/signos/geminis.jpg" class="imagen_signos" alt="Geminis">
-                    <div>
-                        <h3>Géminis</h3>
-                        <p>22 de mayo — 22 de junio</p>
-                        <p>Carácter doble, complejo y contradictorio. Empiezan con entusiasmo nuevas aventuras, pero tienden a aburrirse rápido por la falta de constancia. Son personas cariñosas, amables y generosas , aunque tienen algo de mentirosos si quieren obtener algo. Suelen ser personas que se desaniman con facilidad ante las dificultades, por lo que necesitan escuchar halagos y recibir atención. Inteligencia y capacidad para aprender. Ingeniosos y muy comunicativos</p>
-                    </div>                    
+                <article>
+                    <div class="flex_horizontal width_completo items_centro">
+                        <img src="images/signos/geminis.jpg" class="imagen_signos" alt="Geminis">
+                        <div class="width_completo">
+                            <h3 class="texto_center">Géminis</h3>
+                            <p class="cursiva texto_center">22 de mayo — 22 de junio</p>
+                       </div>
+                    </div>
+                    <p class="margen_entre_parrafos">Carácter doble, complejo y contradictorio. Empiezan con entusiasmo nuevas aventuras, pero tienden a aburrirse rápido por la falta de constancia. Son personas cariñosas, amables y generosas , aunque tienen algo de mentirosos si quieren obtener algo. Suelen ser personas que se desaniman con facilidad ante las dificultades, por lo que necesitan escuchar halagos y recibir atención. Inteligencia y capacidad para aprender. Ingeniosos y muy comunicativos</p>
+                </article>
+                <article>
+                    <div class="flex_horizontal width_completo items_centro">
+                        <img src="images/signos/" class="imagen_signos" alt="">
+                        <div class="width_completo">
+                            <h3 class="texto_center"></h3>
+                            <p class="cursiva texto_center"></p>
+                       </div>
+                    </div>
+                    <p class="margen_entre_parrafos"></p>
+                </article>
+                <article>
+                    <div class="flex_horizontal width_completo items_centro">
+                        <img src="images/signos/" class="imagen_signos" alt="">
+                        <div class="width_completo">
+                            <h3 class="texto_center"></h3>
+                            <p class="cursiva texto_center"></p>
+                       </div>
+                    </div>
+                    <p class="margen_entre_parrafos"></p>
+                </article>
+                <article>
+                    <div class="flex_horizontal width_completo items_centro">
+                        <img src="images/signos/" class="imagen_signos" alt="">
+                        <div class="width_completo">
+                            <h3 class="texto_center"></h3>
+                            <p class="cursiva texto_center"></p>
+                       </div>
+                    </div>
+                    <p class="margen_entre_parrafos"></p>
+                </article>
+                <article>
+                    <div class="flex_horizontal width_completo items_centro">
+                        <img src="images/signos/" class="imagen_signos" alt="">
+                        <div class="width_completo">
+                            <h3 class="texto_center"></h3>
+                            <p class="cursiva texto_center"></p>
+                       </div>
+                    </div>
+                    <p class="margen_entre_parrafos"></p>
+                </article>
+                <article>
+                    <div class="flex_horizontal width_completo items_centro">
+                        <img src="images/signos/" class="imagen_signos" alt="">
+                        <div class="width_completo">
+                            <h3 class="texto_center"></h3>
+                            <p class="cursiva texto_center"></p>
+                       </div>
+                    </div>
+                    <p class="margen_entre_parrafos"></p>
+                </article>
+                <article>
+                    <div class="flex_horizontal width_completo items_centro">
+                        <img src="images/signos/" class="imagen_signos" alt="">
+                        <div class="width_completo">
+                            <h3 class="texto_center"></h3>
+                            <p class="cursiva texto_center"></p>
+                       </div>
+                    </div>
+                    <p class="margen_entre_parrafos"></p>
+                </article>
+                <article>
+                    <div class="flex_horizontal width_completo items_centro">
+                        <img src="images/signos/" class="imagen_signos" alt="">
+                        <div class="width_completo">
+                            <h3 class="texto_center"></h3>
+                            <p class="cursiva texto_center"></p>
+                       </div>
+                    </div>
+                    <p class="margen_entre_parrafos"></p>
+                </article>
+                <article>
+                    <div class="flex_horizontal width_completo items_centro">
+                        <img src="images/signos/" class="imagen_signos" alt="">
+                        <div class="width_completo">
+                            <h3 class="texto_center"></h3>
+                            <p class="cursiva texto_center"></p>
+                       </div>
+                    </div>
+                    <p class="margen_entre_parrafos"></p>
+                </article>
+                <article>
+                    <div class="flex_horizontal width_completo items_centro">
+                        <img src="images/signos/" class="imagen_signos" alt="">
+                        <div class="width_completo">
+                            <h3 class="texto_center"></h3>
+                            <p class="cursiva texto_center"></p>
+                       </div>
+                    </div>
+                    <p class="margen_entre_parrafos"></p>
                 </article>
             </section>
         </section>
 
         <!-- bloque planetas-->
-        <section class="margen_entre_bloques">
+        <section id="planetas" class="margen_entre_bloques">
             <h2 class="texto_center">Planetas</h2>
         </section>
 
         <!-- bloque casas-->
-        <section class="margen_entre_bloques">
+        <section id="casas" class="margen_entre_bloques">
             <h2 class="texto_center">Casas</h2>
         </section>
 
         <!-- bloque elementos-->
-        <section class="margen_entre_bloques">
+        <section id="elementos" class="margen_entre_bloques">
             <h2 class="texto_center">Elementos</h2>
         </section>
 
         <!-- bloque ustedes-->
-        <section class="margen_entre_bloques">
+        <section id="ustedes" class="margen_entre_bloques">
             <h2 class="texto_center"></h2>
         </section>
 
@@ -115,7 +220,7 @@
     </main>
 
     <!-- pie de pagina para contacto, bloque "nosotros" -->
-    <footer>
+    <footer id="nosotros">
 
     </footer>
 </body>
