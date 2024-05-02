@@ -279,3 +279,10 @@ footer ul li {
 .perfil {
     margin-right: 30px;
 }
+.ancla_para_nav_fijo:before {
+    display: block;
+    content: "";
+    margin-top: -100px;
+    height: 100px;
+    visibility: hidden;
+}
