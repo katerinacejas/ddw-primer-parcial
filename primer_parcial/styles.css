@@ -23,18 +23,23 @@ body{
     font-style: normal;
 }
 h2{
-    font-weight: 800;
+    font-weight: 700;
+    font-size: 40px;
     margin: 8px 0 16px 0;
 }
 h3{
-    font-weight: 700;
+    font-weight: 600;
     margin: 0;
+    font-size: 25px;
 }
 p strong {
     font-weight: 600;
 }
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .encabezado {
-    position:fixed;
     top:0;
     width:100%;
     background-color: #000000;
@@ -42,6 +47,7 @@ p strong {
     height: 100px;
     box-sizing: border-box;
     position: sticky;
+    position: -webkit-sticky; /* para safari */
     z-index: 9999;
 }
 .encabezado div h1 {
@@ -74,8 +80,14 @@ ul {
 .margen_horizontal_proximamente div {
     margin: 5px 10px 5px 10px;
 }
-.margen_horizontal_signos article {
-    margin: 10px 15px 10px 15px;
+.margen_horizontal_bloques article {
+    margin: 5px;
+}
+.margen_vertical_bloques article {
+    margin: 10px 0 10px 0;
+}
+.margen_horizontal_divs {
+    margin-left: 20px;
 }
 .logo_espacios {
     margin: 5px;
@@ -153,8 +165,11 @@ hr {
     border-style: solid;
     margin: 0 30px 0 30px;
 }
-.imagen_signos {
+.imagenes img {
     width: 100px;
+}
+.imagenes_planetas img {
+    width: 60px;
 }
 .cursiva {
     font-style: italic;
@@ -170,4 +185,39 @@ p {
 }
 .margen_secciones_intros {
     margin-top: 40px;
+}
+.flex_wrap {
+    flex-wrap: wrap;
+}
+.width_flex_wrap {
+    width: 30%;
+}
+.items_space_around_stretch {
+    align-items: stretch;
+    justify-content: space-around;
+}
+td, th {  
+    padding: 10px;
+    border-bottom: 3px solid #8C6FF7;
+} 
+table {
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 25px;
+    text-align: center;
+    border: 3px solid #8C6FF7;
+}
+th {
+    font-size: 18px;
+}
+aside {
+    float: right;
+    margin-left: 30px;
+    width: 35%;
+}
+.ultima_fila_tabla td {
+    border-bottom: 0;
+}
+.header_tabla th {
+    font-weight: normal;
 }
